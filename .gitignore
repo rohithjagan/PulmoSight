@@ -22,3 +22,59 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+
+# Dataset
+dataset/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment Variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Model Files
+*.h5
+*.keras
+*.ckpt
+
+# Build
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node Modules
+node_modules/
+
+# Frontend Build
+frontend/dist/
+
+# TensorBoard
+runs/
+
+# Coverage
+coverage/
+htmlcov/
+
+# FastAPI
+*.sqlite3
